@@ -1,10 +1,11 @@
 # calPercentile
 
-Steps: 
-npm install
+## Get Started
 
-run:
-node index.js
+```
+	> npm install
+	> node index.js
+```
 
-browser:
-localhost:5000
+Once server is running open **localhost:5000** in browser
+
