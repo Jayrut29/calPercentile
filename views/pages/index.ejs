@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+</head>
+<body class="container">
+
+	<header>
+		
+	</header>
+
+	<main>
+		
+		<table class="table">
+			<thead>
+			  <tr>
+				<th scope="col">Id</th>
+				<th scope="col">Name</th>
+				<th scope="col">Gpa</th>
+				<th scope="col">Percentile Rank</th>
+			  </tr>
+			</thead>
+			<tbody>
+				<% data.forEach(function(element, index) { %>                   
+					<tr>
+						<td><%= element.id %></td>
+						<td><%= element.name%></td>
+						<td><%= element.gpa %></td>
+						<td><%= element.percentileRank %></td>
+					</tr>
+				<% }); %>
+			</tbody>
+		  </table>
+	</main>
+
+	<footer>
+		
+	</footer>
+	
+</body>
+</html>
